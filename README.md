@@ -8,6 +8,6 @@ messing around with MSL
 I am working on this as macOS application
 
 ## Log 
-- Generated a black square!
+- Generated a black square (aka doesn't work it should be a triangle)!
 ![Simple black square](assets/first_iteration.png)
 

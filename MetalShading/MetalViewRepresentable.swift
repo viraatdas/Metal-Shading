@@ -7,8 +7,6 @@ struct MetalViewRepresentable: NSViewRepresentable {
         let mtkView = MTKView()
         mtkView.device = MTLCreateSystemDefaultDevice()
         
-        // Assuming MetalRenderer is correctly implemented elsewhere
-        // and conforms to MTKViewDelegate
         let renderer = MetalRenderer(device: mtkView.device!)
         context.coordinator.renderer = renderer // Store renderer in coordinator
         mtkView.delegate = renderer

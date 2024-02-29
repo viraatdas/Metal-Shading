@@ -14,6 +14,9 @@
 		A498008C2B9061B500CEB5DF /* MetalShadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498008B2B9061B500CEB5DF /* MetalShadingTests.swift */; };
 		A49800962B9061B500CEB5DF /* MetalShadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800952B9061B500CEB5DF /* MetalShadingUITests.swift */; };
 		A49800982B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800972B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift */; };
+		A49800A52B90621800CEB5DF /* SimpleShape.metal in Sources */ = {isa = PBXBuildFile; fileRef = A49800A42B90621800CEB5DF /* SimpleShape.metal */; };
+		A49800A72B90626C00CEB5DF /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800A62B90626C00CEB5DF /* MetalRenderer.swift */; };
+		A49800A92B9062EA00CEB5DF /* MetalViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800A82B9062EA00CEB5DF /* MetalViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		A49800912B9061B500CEB5DF /* MetalShadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalShadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49800952B9061B500CEB5DF /* MetalShadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingUITests.swift; sourceTree = "<group>"; };
 		A49800972B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A49800A42B90621800CEB5DF /* SimpleShape.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SimpleShape.metal; sourceTree = "<group>"; };
+		A49800A62B90626C00CEB5DF /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		A49800A82B9062EA00CEB5DF /* MetalViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				A498007D2B9061B500CEB5DF /* Assets.xcassets */,
 				A49800822B9061B500CEB5DF /* MetalShading.entitlements */,
 				A498007F2B9061B500CEB5DF /* Preview Content */,
+				A49800A42B90621800CEB5DF /* SimpleShape.metal */,
+				A49800A62B90626C00CEB5DF /* MetalRenderer.swift */,
+				A49800A82B9062EA00CEB5DF /* MetalViewRepresentable.swift */,
 			);
 			path = MetalShading;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49800A72B90626C00CEB5DF /* MetalRenderer.swift in Sources */,
 				A498007C2B9061B300CEB5DF /* ContentView.swift in Sources */,
+				A49800A92B9062EA00CEB5DF /* MetalViewRepresentable.swift in Sources */,
 				A498007A2B9061B300CEB5DF /* MetalShadingApp.swift in Sources */,
+				A49800A52B90621800CEB5DF /* SimpleShape.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

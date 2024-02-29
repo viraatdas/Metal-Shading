@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A49800672B90607800CEB5DF /* l.metal in Sources */ = {isa = PBXBuildFile; fileRef = A49800662B90607800CEB5DF /* l.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A49800632B90607800CEB5DF /* Metal-Shading.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "Metal-Shading.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49800662B90607800CEB5DF /* l.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = l.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A498005C2B90607800CEB5DF = {
+			isa = PBXGroup;
+			children = (
+				A49800652B90607800CEB5DF /* Metal-Shading */,
+				A49800642B90607800CEB5DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A49800642B90607800CEB5DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49800632B90607800CEB5DF /* Metal-Shading.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49800652B90607800CEB5DF /* Metal-Shading */ = {
+			isa = PBXGroup;
+			children = (
+				A49800662B90607800CEB5DF /* l.metal */,
+			);
+			path = "Metal-Shading";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49800622B90607800CEB5DF /* Metal-Shading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498006A2B90607800CEB5DF /* Build configuration list for PBXNativeTarget "Metal-Shading" */;
+			buildPhases = (
+				A49800612B90607800CEB5DF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metal-Shading";
+			productName = "Metal-Shading";
+			productReference = A49800632B90607800CEB5DF /* Metal-Shading.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A498005D2B90607800CEB5DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A49800622B90607800CEB5DF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A49800602B90607800CEB5DF /* Build configuration list for PBXProject "Metal-Shading" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A498005C2B90607800CEB5DF;
+			productRefGroup = A49800642B90607800CEB5DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49800622B90607800CEB5DF /* Metal-Shading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49800612B90607800CEB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49800672B90607800CEB5DF /* l.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A49800682B90607800CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A49800692B90607800CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A498006B2B90607800CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A498006C2B90607800CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49800602B90607800CEB5DF /* Build configuration list for PBXProject "Metal-Shading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49800682B90607800CEB5DF /* Debug */,
+				A49800692B90607800CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498006A2B90607800CEB5DF /* Build configuration list for PBXNativeTarget "Metal-Shading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498006B2B90607800CEB5DF /* Debug */,
+				A498006C2B90607800CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A498005D2B90607800CEB5DF /* Project object */;
+}

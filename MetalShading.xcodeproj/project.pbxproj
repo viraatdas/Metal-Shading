@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A498007A2B9061B300CEB5DF /* MetalShadingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800792B9061B300CEB5DF /* MetalShadingApp.swift */; };
+		A498007C2B9061B300CEB5DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498007B2B9061B300CEB5DF /* ContentView.swift */; };
+		A498007E2B9061B500CEB5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A498007D2B9061B500CEB5DF /* Assets.xcassets */; };
+		A49800812B9061B500CEB5DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49800802B9061B500CEB5DF /* Preview Assets.xcassets */; };
+		A498008C2B9061B500CEB5DF /* MetalShadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A498008B2B9061B500CEB5DF /* MetalShadingTests.swift */; };
+		A49800962B9061B500CEB5DF /* MetalShadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800952B9061B500CEB5DF /* MetalShadingUITests.swift */; };
+		A49800982B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49800972B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A49800882B9061B500CEB5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A498006E2B9061B300CEB5DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49800752B9061B300CEB5DF;
+			remoteInfo = MetalShading;
+		};
+		A49800922B9061B500CEB5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A498006E2B9061B300CEB5DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A49800752B9061B300CEB5DF;
+			remoteInfo = MetalShading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A49800762B9061B300CEB5DF /* MetalShading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalShading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49800792B9061B300CEB5DF /* MetalShadingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingApp.swift; sourceTree = "<group>"; };
+		A498007B2B9061B300CEB5DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A498007D2B9061B500CEB5DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A49800802B9061B500CEB5DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A49800822B9061B500CEB5DF /* MetalShading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalShading.entitlements; sourceTree = "<group>"; };
+		A49800872B9061B500CEB5DF /* MetalShadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalShadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A498008B2B9061B500CEB5DF /* MetalShadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingTests.swift; sourceTree = "<group>"; };
+		A49800912B9061B500CEB5DF /* MetalShadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalShadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49800952B9061B500CEB5DF /* MetalShadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingUITests.swift; sourceTree = "<group>"; };
+		A49800972B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49800732B9061B300CEB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49800842B9061B500CEB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A498008E2B9061B500CEB5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A498006D2B9061B300CEB5DF = {
+			isa = PBXGroup;
+			children = (
+				A49800782B9061B300CEB5DF /* MetalShading */,
+				A498008A2B9061B500CEB5DF /* MetalShadingTests */,
+				A49800942B9061B500CEB5DF /* MetalShadingUITests */,
+				A49800772B9061B300CEB5DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A49800772B9061B300CEB5DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49800762B9061B300CEB5DF /* MetalShading.app */,
+				A49800872B9061B500CEB5DF /* MetalShadingTests.xctest */,
+				A49800912B9061B500CEB5DF /* MetalShadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A49800782B9061B300CEB5DF /* MetalShading */ = {
+			isa = PBXGroup;
+			children = (
+				A49800792B9061B300CEB5DF /* MetalShadingApp.swift */,
+				A498007B2B9061B300CEB5DF /* ContentView.swift */,
+				A498007D2B9061B500CEB5DF /* Assets.xcassets */,
+				A49800822B9061B500CEB5DF /* MetalShading.entitlements */,
+				A498007F2B9061B500CEB5DF /* Preview Content */,
+			);
+			path = MetalShading;
+			sourceTree = "<group>";
+		};
+		A498007F2B9061B500CEB5DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A49800802B9061B500CEB5DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A498008A2B9061B500CEB5DF /* MetalShadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A498008B2B9061B500CEB5DF /* MetalShadingTests.swift */,
+			);
+			path = MetalShadingTests;
+			sourceTree = "<group>";
+		};
+		A49800942B9061B500CEB5DF /* MetalShadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A49800952B9061B500CEB5DF /* MetalShadingUITests.swift */,
+				A49800972B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift */,
+			);
+			path = MetalShadingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49800752B9061B300CEB5DF /* MetalShading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498009B2B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShading" */;
+			buildPhases = (
+				A49800722B9061B300CEB5DF /* Sources */,
+				A49800732B9061B300CEB5DF /* Frameworks */,
+				A49800742B9061B300CEB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalShading;
+			productName = MetalShading;
+			productReference = A49800762B9061B300CEB5DF /* MetalShading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A49800862B9061B500CEB5DF /* MetalShadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A498009E2B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShadingTests" */;
+			buildPhases = (
+				A49800832B9061B500CEB5DF /* Sources */,
+				A49800842B9061B500CEB5DF /* Frameworks */,
+				A49800852B9061B500CEB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49800892B9061B500CEB5DF /* PBXTargetDependency */,
+			);
+			name = MetalShadingTests;
+			productName = MetalShadingTests;
+			productReference = A49800872B9061B500CEB5DF /* MetalShadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A49800902B9061B500CEB5DF /* MetalShadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49800A12B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShadingUITests" */;
+			buildPhases = (
+				A498008D2B9061B500CEB5DF /* Sources */,
+				A498008E2B9061B500CEB5DF /* Frameworks */,
+				A498008F2B9061B500CEB5DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A49800932B9061B500CEB5DF /* PBXTargetDependency */,
+			);
+			name = MetalShadingUITests;
+			productName = MetalShadingUITests;
+			productReference = A49800912B9061B500CEB5DF /* MetalShadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A498006E2B9061B300CEB5DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A49800752B9061B300CEB5DF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A49800862B9061B500CEB5DF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A49800752B9061B300CEB5DF;
+					};
+					A49800902B9061B500CEB5DF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A49800752B9061B300CEB5DF;
+					};
+				};
+			};
+			buildConfigurationList = A49800712B9061B300CEB5DF /* Build configuration list for PBXProject "MetalShading" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A498006D2B9061B300CEB5DF;
+			productRefGroup = A49800772B9061B300CEB5DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49800752B9061B300CEB5DF /* MetalShading */,
+				A49800862B9061B500CEB5DF /* MetalShadingTests */,
+				A49800902B9061B500CEB5DF /* MetalShadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49800742B9061B300CEB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49800812B9061B500CEB5DF /* Preview Assets.xcassets in Resources */,
+				A498007E2B9061B500CEB5DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49800852B9061B500CEB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A498008F2B9061B500CEB5DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49800722B9061B300CEB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A498007C2B9061B300CEB5DF /* ContentView.swift in Sources */,
+				A498007A2B9061B300CEB5DF /* MetalShadingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49800832B9061B500CEB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A498008C2B9061B500CEB5DF /* MetalShadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A498008D2B9061B500CEB5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49800962B9061B500CEB5DF /* MetalShadingUITests.swift in Sources */,
+				A49800982B9061B500CEB5DF /* MetalShadingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A49800892B9061B500CEB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49800752B9061B300CEB5DF /* MetalShading */;
+			targetProxy = A49800882B9061B500CEB5DF /* PBXContainerItemProxy */;
+		};
+		A49800932B9061B500CEB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A49800752B9061B300CEB5DF /* MetalShading */;
+			targetProxy = A49800922B9061B500CEB5DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A49800992B9061B500CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A498009A2B9061B500CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A498009C2B9061B500CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalShading/MetalShading.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalShading/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C4383262W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A498009D2B9061B500CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalShading/MetalShading.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetalShading/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C4383262W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A498009F2B9061B500CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalShading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalShading";
+			};
+			name = Debug;
+		};
+		A49800A02B9061B500CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalShading.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetalShading";
+			};
+			name = Release;
+		};
+		A49800A22B9061B500CEB5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetalShading;
+			};
+			name = Debug;
+		};
+		A49800A32B9061B500CEB5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C4383262W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dasco.MetalShadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MetalShading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49800712B9061B300CEB5DF /* Build configuration list for PBXProject "MetalShading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49800992B9061B500CEB5DF /* Debug */,
+				A498009A2B9061B500CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498009B2B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498009C2B9061B500CEB5DF /* Debug */,
+				A498009D2B9061B500CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A498009E2B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498009F2B9061B500CEB5DF /* Debug */,
+				A49800A02B9061B500CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49800A12B9061B500CEB5DF /* Build configuration list for PBXNativeTarget "MetalShadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49800A22B9061B500CEB5DF /* Debug */,
+				A49800A32B9061B500CEB5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A498006E2B9061B300CEB5DF /* Project object */;
+}
